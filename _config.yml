@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Y.C.
-tagline: Never Settle
+tagline: b513cb3819c7b706a4ec96f7bd8a3137
 email: yulongc@umich.edu
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
