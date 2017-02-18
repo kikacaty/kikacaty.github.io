@@ -1,49 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  {% include head.html %}
-
-  <body>
-
-<div class="overlay-navigation">
-  <nav role="navigation">
-    <ul>
-      <li><a href="/" data-content="About me">Home</a></li>
-      <li><a href="/gallery" data-content="Another life">Gallery</a></li>
-      <li><a href="/blogs" data-content="Random thoughts">Blogs</a></li>
-    </ul>
-  </nav>
-</div>
-
-<div class="open-overlay">
-  <span class="bar-top"></span>
-  <span class="bar-middle"></span>
-  <span class="bar-bottom"></span>
-</div>
-
-<section class="home">
-  <div class="wrap">
-    <div class="masthead">
-      <div class="container">
-        <h3 class="masthead-title">
-          <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-          <br><small>{{ site.tagline }}</small>
-        </h3>
-      </div>
-    </div>
-
-    <div class="container content" id="main">
-      <div class="sideimg">
-        <img src="{{ site.baseurl }}/assets/avatar.JPG" alt="My Avatar" />
-      </div>
-      <div class="container content">
-              {{ content }}
-      </div>
-    </div>
-  </div>
-</section>
-
-<script>
 $('.open-overlay').click(function() {
   $('.open-overlay').css('pointer-events', 'none');
   var overlay_navigation = $('.overlay-navigation'),
@@ -69,7 +23,7 @@ $('.open-overlay').click(function() {
             $('nav ul li a').velocity({
               opacity: [1, 0],
             }, {
-              delay: 5,
+              delay: 10,
               duration: 140
             });
             $('.open-overlay').css('pointer-events', 'auto');
@@ -105,8 +59,3 @@ $('.open-overlay').click(function() {
     })
   }
 })
-</script>
-
-  </body>
-
-</html>

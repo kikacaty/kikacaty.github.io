@@ -3,6 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: about
+title: About
 ---
 
 I am Yulong Cao [[cv]]({{site.url}}/assets/cv.pdf), a senior student at the Computer Science and Engineering department of [University of Michigan](https://www.eecs.umich.edu/cse/). Prior to UMich, I was an undergraduate student at [Shanghai Jiao Tong University](http://www.sjtu.edu.cn/).
