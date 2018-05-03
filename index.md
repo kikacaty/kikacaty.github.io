@@ -6,7 +6,7 @@ layout: about
 title: About
 ---
 
-I am Yulong Cao [[cv]]({{site.url}}/assets/cv.pdf), a senior student at the Computer Science and Engineering department of [University of Michigan](https://www.eecs.umich.edu/cse/). Prior to UMich, I was an undergraduate student at [Shanghai Jiao Tong University](http://www.sjtu.edu.cn/).
+I am Yulong Cao [[cv]]({{site.url}}/assets/cv.pdf), a first year Ph.D student at the Computer Science and Engineering department of [University of Michigan](https://www.eecs.umich.edu/cse/). Prior to UMich, I was an undergraduate student at [Shanghai Jiao Tong University](http://www.sjtu.edu.cn/).
 
 I love to be as a researcher. I am also honored to be a member of [Robustnet Lab](http://vhosts.eecs.umich.edu/robustnet) advised by [Prof. Mao](http://web.eecs.umich.edu/~zmao/). My research interests span network security, system security and deep learning.
 
