@@ -6,8 +6,18 @@ layout: about
 title: About
 ---
 
-I am Yulong Cao [[cv]]({{site.url}}/assets/cv.pdf), a first year Ph.D student at the Computer Science and Engineering department of [University of Michigan](https://www.eecs.umich.edu/cse/). Prior to UMich, I was an undergraduate student at [Shanghai Jiao Tong University](http://www.sjtu.edu.cn/).
+I am Yulong Cao [[cv]]({{site.url}}/assets/cv.pdf), a second year Ph.D student at the Computer Science and Engineering department of [University of Michigan](https://www.eecs.umich.edu/cse/). Prior to UMich, I was an undergraduate student at [Shanghai Jiao Tong University](http://www.sjtu.edu.cn/).
 
-I love to be as a researcher. I am also honored to be a member of [Robustnet Lab](http://vhosts.eecs.umich.edu/robustnet) advised by [Prof. Mao](http://web.eecs.umich.edu/~zmao/). My research interests span network security, system security and deep learning.
+I love to be as a researcher. I am also honored to be a member of [Robustnet Lab](http://vhosts.eecs.umich.edu/robustnet) advised by [Prof. Mao](http://web.eecs.umich.edu/~zmao/). My research interests span system security, sensor security and deep learning.
 
-Recently I found adversary machine learning an interesting topic, and [here](https://arxiv.org/pdf/1412.6572v3.pdf) is a fun-to-read paper about it.
+
+Autonomous driving systems have gain a lot of attention through the recent years. However, the security/privacy of them are not well studied yet. The perception of the autonomous driving system is considered as one of the most crucial components as it helps the system to understand the surroundings of the vehicle. I am interested in understanding whether the perception system is exploitable and how to make it more robust if so.
+
+
+# Publications
+
+**Yulong Cao**, Chaowei Xiao, Benjamin Cyr, Yimeng Zhou, Won Park, Sara Rampazzi, Qi Alfred Chen, Kevin Fu, and Z. Morley Mao
+"Adversarial Sensor Attack on LiDAR-based Perception in Autonomous Driving" (**CCS'19**) [[Webpage]](https://sites.google.com/umich.edu/advlidar/) [[PDF]](https://arxiv.org/abs/1907.06826)
+
+Qi Alfred Chen, Matthew Thomas, Eric Osterweil, **Yulong Cao**, Jie You, Z. Morley Mao
+"Client-side Name Collision Vulnerability in the New gTLD Era: A Systematic Study" (**CCS'17**) [[PDF]](https://www.ics.uci.edu/~alfchen/alfred_ccs17.pdf)
