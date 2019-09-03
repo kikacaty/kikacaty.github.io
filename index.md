@@ -13,6 +13,7 @@ I love to be as a researcher. I am also honored to be a member of [Robustnet Lab
 
 Autonomous driving systems have gain a lot of attention through the recent years. However, the security/privacy of them are not well studied yet. The perception of the autonomous driving system is considered as one of the most crucial components as it helps the system to understand the surroundings of the vehicle. I am interested in understanding whether the perception system is exploitable and how to make it more robust if so.
 
+Besides research, I also find photography another lens to observe the world better. Check out my [gallery](/gallery) or my [instagram](https://www.instagram.com/kikacaty/) to find more!
 
 # Publications
 
