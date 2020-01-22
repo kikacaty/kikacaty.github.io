@@ -6,7 +6,7 @@ layout: about
 title: About
 ---
 
-I am Yulong Cao [[cv]]({{site.url}}/assets/cv.pdf), a second year Ph.D student at the Computer Science and Engineering department of [University of Michigan](https://www.eecs.umich.edu/cse/). Prior to UMich, I was an undergraduate student at [Shanghai Jiao Tong University](http://www.sjtu.edu.cn/).
+I am Yulong Cao [[cv]]({{site.url}}/assets/cv.pdf), a third year Ph.D student at the Computer Science and Engineering department of [University of Michigan](https://www.eecs.umich.edu/cse/). Prior to UMich, I was an undergraduate student at [Shanghai Jiao Tong University](http://www.sjtu.edu.cn/).
 
 I love to be as a researcher. I am also honored to be a member of [Robustnet Lab](http://vhosts.eecs.umich.edu/robustnet) advised by [Prof. Mao](http://web.eecs.umich.edu/~zmao/). My research interests span system security, sensor security and deep learning.
 
@@ -22,3 +22,8 @@ Besides research, I also find photography another lens to observe the world bett
 
 Qi Alfred Chen, Matthew Thomas, Eric Osterweil, **Yulong Cao**, Jie You, Z. Morley Mao
 "Client-side Name Collision Vulnerability in the New gTLD Era: A Systematic Study" (**CCS'17**) [[PDF]](https://www.ics.uci.edu/~alfchen/alfred_ccs17.pdf)
+
+# Preprints
+
+**Yulong Cao**\*, Chaowei Xiao\*, Dawei Yang\*, Jing Fang, Ruigang Yang, Mingyan Liu, Bo Li
+"Adversarial Objects Against LiDAR-Based Autonomous Driving Systems" [[Webpage]](https://sites.google.com/view/lidar-adv) [[PDF]](https://arxiv.org/abs/1907.05418)
