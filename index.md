@@ -17,8 +17,11 @@ Besides research, I also find photography another lens to observe the world bett
 
 # Publications
 
+Jiachen Sun, **Yulong Cao**, Qi Alfred Chen, and Z. Morley Mao
+"Towards Robust LiDAR-based Perception in Autonomous Driving: General Black-box Adversarial Sensor Attack and Countermeasures " (**USENIX'20**) [[Webpage]](https://sites.google.com/view/cav-sec/adv-lidar-defense) [[PDF]](https://arxiv.org/abs/2006.16974)
+
 **Yulong Cao**, Chaowei Xiao, Benjamin Cyr, Yimeng Zhou, Won Park, Sara Rampazzi, Qi Alfred Chen, Kevin Fu, and Z. Morley Mao
-"Adversarial Sensor Attack on LiDAR-based Perception in Autonomous Driving" (**CCS'19**) [[Webpage]](https://sites.google.com/umich.edu/advlidar/) [[PDF]](https://arxiv.org/abs/1907.06826)
+"Adversarial Sensor Attack on LiDAR-based Perception in Autonomous Driving" (**CCS'19**) [[Webpage]](https://sites.google.com/umich.edu/advlidar/) [[PDF]](https://arxiv.org/abs/1907.06826) [[Forbes]](https://www.forbes.com/sites/forbestechcouncil/2019/10/31/five-components-of-autonomous-car-security/#1188d2831bb4)
 
 Qi Alfred Chen, Matthew Thomas, Eric Osterweil, **Yulong Cao**, Jie You, Z. Morley Mao
 "Client-side Name Collision Vulnerability in the New gTLD Era: A Systematic Study" (**CCS'17**) [[PDF]](https://www.ics.uci.edu/~alfchen/alfred_ccs17.pdf)
