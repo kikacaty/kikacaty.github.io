@@ -6,7 +6,7 @@ layout: about
 title: About
 ---
 
-I am Yulong Cao [[cv]]({{site.url}}/assets/cv.pdf), a third year Ph.D student at the Computer Science and Engineering department of [University of Michigan](https://www.eecs.umich.edu/cse/). Prior to UMich, I was an undergraduate student at [Shanghai Jiao Tong University](http://www.sjtu.edu.cn/).
+I am Yulong Cao [[cv]]({{site.url}}/assets/cv.pdf), a fifth year Ph.D student at the Computer Science and Engineering department of [University of Michigan](https://www.eecs.umich.edu/cse/). Prior to UMich, I was an undergraduate student at [Shanghai Jiao Tong University](http://www.sjtu.edu.cn/).
 
 I love to be as a researcher. I am also honored to be a member of [Robustnet Lab](http://vhosts.eecs.umich.edu/robustnet) advised by [Prof. Mao](http://web.eecs.umich.edu/~zmao/). My research interests span system security, sensor security and deep learning.
 
@@ -17,16 +17,49 @@ Besides research, I also find photography another lens to observe the world bett
 
 # Publications
 
-Jiachen Sun, **Yulong Cao**, Qi Alfred Chen, and Z. Morley Mao
-"Towards Robust LiDAR-based Perception in Autonomous Driving: General Black-box Adversarial Sensor Attack and Countermeasures " (**USENIX'20**) [[Webpage]](https://sites.google.com/view/cav-sec/adv-lidar-defense) [[PDF]](https://arxiv.org/abs/2006.16974)
+**Yulong Cao\***, Ningfei Wang\*, Chaowei Xiao\*, Dawei Yang\*, Jin Fang, Ruigang Yang, Qi Alfred Chen, Mingyan Liu, Bo Li
+"Security of Multi-Sensor Fusion based Perception in Autonomous Driving Under Physical-World Attacks" (**Oakland'21**) [[PDF]](https://arxiv.org/pdf/2106.09249.pdf) [[Website]](https://sites.google.com/view/cav-sec/msf-adv)
+
+**Yulong Cao**, Jiaxiang Ma, Kevin Fu, Sara Rampazzi, Z. Morley Mao
+"Automated Tracking System for LiDAR Spoofing Attacks on Moving Targets" (**AutoSec'21, Best Demo Award Runner-up**)
 
 **Yulong Cao**, Chaowei Xiao, Benjamin Cyr, Yimeng Zhou, Won Park, Sara Rampazzi, Qi Alfred Chen, Kevin Fu, and Z. Morley Mao
 "Adversarial Sensor Attack on LiDAR-based Perception in Autonomous Driving" (**CCS'19**) [[Webpage]](https://sites.google.com/umich.edu/advlidar/) [[PDF]](https://arxiv.org/abs/1907.06826) [[Forbes]](https://www.forbes.com/sites/forbestechcouncil/2019/10/31/five-components-of-autonomous-car-security/#1188d2831bb4)
 
+Jiachen Sun, **Yulong Cao**, Christopher Choy, Zhiding Yu, Anima Anandkumar, Z. Morley Mao, and Chaowei Xiao
+"Adversarially Robust 3D Point Cloud Recognition Using Self-Supervisions" (**NeurIPS'21**)
+
+Jiachen Sun, Karl Koenig, **Yulong Cao**, Qi Alfred Chen, and Z. Morley Mao 
+"On The Adversarial Robustness of 3D Point Cloud Classification" (**BMVC'21**)
+
+Jiachen Sun, **Yulong Cao**, Qi Alfred Chen, and Z. Morley Mao 
+"Towards Robust LiDAR-based Perception in Autonomous Driving: General Black-box Adversarial Sensor Attack and Countermeasures" (**USENIX'20**) [[Webpage]](https://sites.google.com/view/cav-sec/adv-lidar-defense) [[PDF]](https://arxiv.org/abs/2006.16974)
+
 Qi Alfred Chen, Matthew Thomas, Eric Osterweil, **Yulong Cao**, Jie You, Z. Morley Mao
 "Client-side Name Collision Vulnerability in the New gTLD Era: A Systematic Study" (**CCS'17**) [[PDF]](https://www.ics.uci.edu/~alfchen/alfred_ccs17.pdf)
 
-# Preprints
+# Workshops and Posters
+
+**Yulong Cao**, Jiachen Sun, Chaowei Xiao, Qi Alfred Chen, Z. Morley Mao
+"Delving into the Remote Adversarial Patch in Semantic Segmentation" Posters at ICML 2021 Workshop on Socially Responsible Machine Learning. July. 2021.
+
+<!-- Jiachen Sun, **Yulong Cao**, Christopher Choy, Zhiding Yu, Chaowei Xiao, Anima Anandkumar, and Z. Morley Mao 
+"Improving Adversarial Robustness in 3D Point Cloud Classification via Self-Supervisions", Posters at ICML 2021 Workshop on Socially Responsible Machine Learning. July. 2021. -->
+
+Yanan Guo, Christopher Joseph, Takami Sato, **Yulong Cao**, Qi Alfred Chen, Yueqiang Cheng 
+"An Adversarial Attack on DNN-based Adaptive Cruise Control Systems" Posters at ICCV 2021 Workshop on Adversarial Robustness In the Real World. Oct 11, 2021.
+
+**Yulong Cao\***, Ningfei Wang\*, Chaowei Xiao\*, Dawei Yang\*, Jin Fang, Ruigang Yang, Qi Alfred Chen, Mingyan Liu, Bo Li
+"Demonstration: 3D Adversarial Object against MSF-based Perception in Autonomous Driving" 
+The 3rd Conference on Machine Learning and Systems (MLSys 2020) Demonstration Track 
+
+<!-- **Yulong Cao\***, Chaowei Xiao\*, Dawei Yang\*, Jing Fang, Ruigang Yang, Mingyan Liu, Bo Li 
+"Adversarial Objects Against LiDAR-Based Autonomous Driving Systems" Posters and talks at CVPR AMLCV workshop 2019 \textbf{(Contributed Talk)}, Long Beach, United States, June 2019.
+
+**Yulong Cao**, Qi Alfred Chen, and Z. Morley Mao 
+"Adversarial Machine Learning on LiDAR-based Object Detection in Autonomous Driving: A First Study" Poster and Talks at the 27th USENIX Security Symposium $\left(USENIX\,Security'18\right)$, Baltimore, United States, August 2018. -->
+
+<!-- # Preprints
 
 **Yulong Cao**\*, Chaowei Xiao\*, Dawei Yang\*, Jing Fang, Ruigang Yang, Mingyan Liu, Bo Li
-"Adversarial Objects Against LiDAR-Based Autonomous Driving Systems" [[Webpage]](https://sites.google.com/view/lidar-adv) [[PDF]](https://arxiv.org/abs/1907.05418)
+"Adversarial Objects Against LiDAR-Based Autonomous Driving Systems" [[Webpage]](https://sites.google.com/view/lidar-adv) [[PDF]](https://arxiv.org/abs/1907.05418) -->
