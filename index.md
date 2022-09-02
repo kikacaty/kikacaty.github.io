@@ -6,12 +6,7 @@ layout: about
 title: About
 ---
 
-I am Yulong Cao [[cv]]({{site.url}}/assets/cv.pdf), a fifth year Ph.D student at the Computer Science and Engineering department of [University of Michigan](https://www.eecs.umich.edu/cse/). Prior to UMich, I was an undergraduate student at [Shanghai Jiao Tong University](http://www.sjtu.edu.cn/).
-
-I love to be as a researcher. I am also honored to be a member of [Robustnet Lab](http://vhosts.eecs.umich.edu/robustnet) advised by [Prof. Mao](http://web.eecs.umich.edu/~zmao/). My research interests span system security, sensor security and deep learning.
-
-
-Autonomous driving systems have gain a lot of attention through the recent years. However, the security/privacy of them are not well studied yet. The perception of the autonomous driving system is considered as one of the most crucial components as it helps the system to understand the surroundings of the vehicle. I am interested in understanding whether the perception system is exploitable and how to make it more robust if so.
+I am Yulong Cao [[cv]]({{site.url}}/assets/cv.pdf), a final year Ph.D student at the Computer Science and Engineering department of [University of Michigan](https://www.eecs.umich.edu/cse/), advised by [Morley Mao](http://web.eecs.umich.edu/~zmao/). I am also currently a research intern at the NVIDIA Autonomous Vehicle Research group advised by [Marco Pavone](https://research.nvidia.com/person/marco-pavone). I received my B.S from both [University of Michigan](https://www.eecs.umich.edu/cse/) and [Shanghai Jiao Tong University](http://www.sjtu.edu.cn/). My research interests span machine learning security, sensor security, and system security. My research goal is to build secure and safe autonomous driving systems. My Ph.D works sought to understand the vulnerability status of autonomous driving perception systems and how to make it robust.
 
 Besides research, I also find photography another lens to observe the world better. Check out my [gallery](/gallery) or my [instagram](https://www.instagram.com/kikacaty/) to find more!
 
@@ -37,6 +32,9 @@ Jiachen Sun, **Yulong Cao**, Christopher Choy, Zhiding Yu, Anima Anandkumar, Z. 
 
 Jiachen Sun, Karl Koenig, **Yulong Cao**, Qi Alfred Chen, and Z. Morley Mao 
 "On The Adversarial Robustness of 3D Point Cloud Classification" (**BMVC'21**)
+
+R Spencer Hallyburton, Yupei Liu, **Yulong Cao**, Z Morley Mao, and Miroslav Pajic
+"Security Analysis of Camera-LiDAR Fusion Against Black-Box Attacks on Autonomous Vehicles" (**USENIX'22**)
 
 Jiachen Sun, **Yulong Cao**, Qi Alfred Chen, and Z. Morley Mao 
 "Towards Robust LiDAR-based Perception in Autonomous Driving: General Black-box Adversarial Sensor Attack and Countermeasures" (**USENIX'20**) [[Webpage]](https://sites.google.com/view/cav-sec/adv-lidar-defense) [[PDF]](https://arxiv.org/abs/2006.16974)
