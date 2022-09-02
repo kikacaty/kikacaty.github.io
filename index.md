@@ -17,6 +17,12 @@ Besides research, I also find photography another lens to observe the world bett
 
 # Publications
 
+**Yulong Cao**, Sri Hrushikesh Varma Bhupathiraju, Pirouz Naghavi, Takeshi Sugawara, Z. Morley Mao, Sara Rampazzi
+"You Can't See Me: Physical Removal Attacks on LiDAR-based Autonomous Vehicles Driving Frameworks" (**USENIX'23**)
+
+**Yulong Cao**, Chaowei Xiao, Anima Anandkumar, Danfei Xu, Marco Pavone
+"AdvDO: Realistic Adversarial Attacks for Trajectory Prediction" (**ECCV'22**)
+
 **Yulong Cao\***, Ningfei Wang\*, Chaowei Xiao\*, Dawei Yang\*, Jin Fang, Ruigang Yang, Qi Alfred Chen, Mingyan Liu, Bo Li
 "Security of Multi-Sensor Fusion based Perception in Autonomous Driving Under Physical-World Attacks" (**Oakland'21**) [[PDF]](https://arxiv.org/pdf/2106.09249.pdf) [[Website]](https://sites.google.com/view/cav-sec/msf-adv)
 
