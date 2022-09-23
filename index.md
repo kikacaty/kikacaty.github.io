@@ -12,6 +12,9 @@ Besides research, I also find photography another lens to observe the world bett
 
 # Publications
 
+**Yulong Cao**, Danfei Xu, Xinshuo Weng, Zhuoqing Mao, Anima Anandkumar, Chaowei Xiao, Marco Pavone
+"Robust Trajectory Prediction against Adversarial Attacks" (**CoRL'22, Oral**)
+
 **Yulong Cao**, Sri Hrushikesh Varma Bhupathiraju, Pirouz Naghavi, Takeshi Sugawara, Z. Morley Mao, Sara Rampazzi
 "You Can't See Me: Physical Removal Attacks on LiDAR-based Autonomous Vehicles Driving Frameworks" (**USENIX'23**)
 
