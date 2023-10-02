@@ -12,23 +12,26 @@ Besides research, I also find photography another lens to observe the world bett
 
 # Publications
 
-**Yulong Cao**, Danfei Xu, Xinshuo Weng, Zhuoqing Mao, Anima Anandkumar, Chaowei Xiao, Marco Pavone
-"Robust Trajectory Prediction against Adversarial Attacks" (**CoRL'22, Oral**)
+Ziyuan Zhong, Davis Rempe, Yuxiao Chen, Boris Ivanovic, **Yulong Cao**, Danfei Xu, Marco Pavone, Baishakhi Ray
+"Language-Guided Traffic Simulation via Scene-Level Diffusion" (**CoRL'23, Oral**)
 
 **Yulong Cao**, Sri Hrushikesh Varma Bhupathiraju, Pirouz Naghavi, Takeshi Sugawara, Z. Morley Mao, Sara Rampazzi
 "You Can't See Me: Physical Removal Attacks on LiDAR-based Autonomous Vehicles Driving Frameworks" (**USENIX'23**)
 
+Minkyoung Cho, **Yulong Cao**, Zixiang Zhou, Z. Morley Mao
+"ADoPT: LiDAR Spoofing Attack Detection based on Point-Level Temporal Consistency" (**BMVC'23**)
+
+**Yulong Cao**, Danfei Xu, Xinshuo Weng, Zhuoqing Mao, Anima Anandkumar, Chaowei Xiao, Marco Pavone
+"Robust Trajectory Prediction against Adversarial Attacks" (**CoRL'22, Oral**)
+
 **Yulong Cao**, Chaowei Xiao, Anima Anandkumar, Danfei Xu, Marco Pavone
 "AdvDO: Realistic Adversarial Attacks for Trajectory Prediction" (**ECCV'22**)
 
+R Spencer Hallyburton, Yupei Liu, **Yulong Cao**, Z Morley Mao, and Miroslav Pajic
+"Security Analysis of Camera-LiDAR Fusion Against Black-Box Attacks on Autonomous Vehicles" (**USENIX'22**)
+
 **Yulong Cao\***, Ningfei Wang\*, Chaowei Xiao\*, Dawei Yang\*, Jin Fang, Ruigang Yang, Qi Alfred Chen, Mingyan Liu, Bo Li
 "Security of Multi-Sensor Fusion based Perception in Autonomous Driving Under Physical-World Attacks" (**Oakland'21**) [[PDF]](https://arxiv.org/pdf/2106.09249.pdf) [[Website]](https://sites.google.com/view/cav-sec/msf-adv)
-
-**Yulong Cao**, Jiaxiang Ma, Kevin Fu, Sara Rampazzi, Z. Morley Mao
-"Automated Tracking System for LiDAR Spoofing Attacks on Moving Targets" (**AutoSec'21, Best Demo Award Runner-up**)
-
-**Yulong Cao**, Chaowei Xiao, Benjamin Cyr, Yimeng Zhou, Won Park, Sara Rampazzi, Qi Alfred Chen, Kevin Fu, and Z. Morley Mao
-"Adversarial Sensor Attack on LiDAR-based Perception in Autonomous Driving" (**CCS'19**) [[Webpage]](https://sites.google.com/umich.edu/advlidar/) [[PDF]](https://arxiv.org/abs/1907.06826) [[Forbes]](https://www.forbes.com/sites/forbestechcouncil/2019/10/31/five-components-of-autonomous-car-security/#1188d2831bb4)
 
 Jiachen Sun, **Yulong Cao**, Christopher Choy, Zhiding Yu, Anima Anandkumar, Z. Morley Mao, and Chaowei Xiao
 "Adversarially Robust 3D Point Cloud Recognition Using Self-Supervisions" (**NeurIPS'21**)
@@ -36,11 +39,14 @@ Jiachen Sun, **Yulong Cao**, Christopher Choy, Zhiding Yu, Anima Anandkumar, Z. 
 Jiachen Sun, Karl Koenig, **Yulong Cao**, Qi Alfred Chen, and Z. Morley Mao 
 "On The Adversarial Robustness of 3D Point Cloud Classification" (**BMVC'21**)
 
-R Spencer Hallyburton, Yupei Liu, **Yulong Cao**, Z Morley Mao, and Miroslav Pajic
-"Security Analysis of Camera-LiDAR Fusion Against Black-Box Attacks on Autonomous Vehicles" (**USENIX'22**)
+**Yulong Cao**, Jiaxiang Ma, Kevin Fu, Sara Rampazzi, Z. Morley Mao
+"Automated Tracking System for LiDAR Spoofing Attacks on Moving Targets" (**AutoSec'21, Best Demo Award Runner-up**)
 
 Jiachen Sun, **Yulong Cao**, Qi Alfred Chen, and Z. Morley Mao 
 "Towards Robust LiDAR-based Perception in Autonomous Driving: General Black-box Adversarial Sensor Attack and Countermeasures" (**USENIX'20**) [[Webpage]](https://sites.google.com/view/cav-sec/adv-lidar-defense) [[PDF]](https://arxiv.org/abs/2006.16974)
+
+**Yulong Cao**, Chaowei Xiao, Benjamin Cyr, Yimeng Zhou, Won Park, Sara Rampazzi, Qi Alfred Chen, Kevin Fu, and Z. Morley Mao
+"Adversarial Sensor Attack on LiDAR-based Perception in Autonomous Driving" (**CCS'19**) [[Webpage]](https://sites.google.com/umich.edu/advlidar/) [[PDF]](https://arxiv.org/abs/1907.06826) [[Forbes]](https://www.forbes.com/sites/forbestechcouncil/2019/10/31/five-components-of-autonomous-car-security/#1188d2831bb4)
 
 Qi Alfred Chen, Matthew Thomas, Eric Osterweil, **Yulong Cao**, Jie You, Z. Morley Mao
 "Client-side Name Collision Vulnerability in the New gTLD Era: A Systematic Study" (**CCS'17**) [[PDF]](https://www.ics.uci.edu/~alfchen/alfred_ccs17.pdf)
