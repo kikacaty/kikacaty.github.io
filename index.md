@@ -8,6 +8,8 @@ title: About
 
 I am Yulong Cao [[cv]]({{site.url}}/assets/cv.pdf), a research scientist at the [NVIDIA Autonomous Vehicle Research group](https://research.nvidia.com/labs/avg/) directed by [Marco Pavone](https://research.nvidia.com/person/marco-pavone). My research interests span machine learning security, sensor security, and system security. My research goal is to build secure and safe autonomous driving systems that are aligned with human. I completed my Ph.D from the Computer Science and Engineering department of [University of Michigan](https://www.eecs.umich.edu/cse/), advised by [Morley Mao](http://web.eecs.umich.edu/~zmao/). Before that, I also received my B.S from both [University of Michigan](https://www.eecs.umich.edu/cse/) and [Shanghai Jiao Tong University](http://www.sjtu.edu.cn/).  My [Ph.D works](https://deepblue.lib.umich.edu/handle/2027.42/176634) sought to understand the vulnerability status of autonomous driving perception systems and how to make it robust.
 
+**Internship opportunities at [AVG](https://research.nvidia.com/labs/avg/) Summer'24**: if you are interested in **Traffic Modeling**, **Trustworthy AI**, please feel free to reach out or [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--Autonomous-Vehicles---2024_JR1975150)!
+
 Besides research, I also find photography another lens to observe the world better. Check out my [gallery](/gallery) or my [instagram](https://www.instagram.com/kikacaty/) to find more!
 
 # Publications
