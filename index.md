@@ -12,6 +12,15 @@ I am Yulong Cao [[cv]]({{site.url}}/assets/cv.pdf), a research scientist at the 
 
 Besides research, I also find photography another lens to observe the world better. Check out my [gallery](/gallery) or my [instagram](https://www.instagram.com/kikacaty/) to find more!
 
+# Preprints
+
+Yingzi Ma, **Yulong Cao**, Jiachen Sun, Marco Pavone, Chaowei Xiao
+"Dolphins: Multimodal Language Model for Driving" [[PDF]](https://arxiv.org/abs/2312.00438)
+
+**Yulong Cao**, Boris Ivanovic, Chaowei Xiao, Marco Pavone
+"Reinforcement Learning with Human Feedback for Realistic Traffic Simulation” [[PDF]](https://arxiv.org/abs/2309.00709)
+
+
 # Publications
 
 Ziyuan Zhong, Davis Rempe, Yuxiao Chen, Boris Ivanovic, **Yulong Cao**, Danfei Xu, Marco Pavone, Baishakhi Ray
