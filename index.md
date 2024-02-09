@@ -6,7 +6,7 @@ layout: about
 title: About
 ---
 
-I am Yulong Cao [[cv]]({{site.url}}/assets/cv.pdf), a research scientist at the [NVIDIA Autonomous Vehicle Research group](https://research.nvidia.com/labs/avg/) directed by [Marco Pavone](https://research.nvidia.com/person/marco-pavone). My research interests span machine learning security, sensor security, and system security. My research goal is to build secure and safe autonomous driving systems that are aligned with human. I completed my Ph.D from the Computer Science and Engineering department of [University of Michigan](https://www.eecs.umich.edu/cse/), advised by [Morley Mao](http://web.eecs.umich.edu/~zmao/). Before that, I also received my B.S from both [University of Michigan](https://www.eecs.umich.edu/cse/) and [Shanghai Jiao Tong University](http://www.sjtu.edu.cn/).  My [Ph.D works](https://deepblue.lib.umich.edu/handle/2027.42/176634) sought to understand the vulnerability status of autonomous driving perception systems and how to make it robust.
+I am Yulong Cao [[cv]]({{site.url}}/assets/cv.pdf), a research scientist at the [NVIDIA Autonomous Vehicle Research group](https://research.nvidia.com/labs/avg/) directed by [Marco Pavone](https://research.nvidia.com/person/marco-pavone). My research interests span machine learning security, sensor security, and system security. My research goal is to build secure and safe autonomous driving systems that are aligned with human. I completed my Ph.D from the Computer Science and Engineering department of [University of Michigan](https://www.eecs.umich.edu/cse/), advised by [Morley Mao](http://web.eecs.umich.edu/~zmao/). Before that, I also received my B.S from both [University of Michigan](https://www.eecs.umich.edu/cse/) and [Shanghai Jiao Tong University](http://www.sjtu.edu.cn/).  My [Ph.D works](https://deepblue.lib.umich.edu/handle/2027.42/176634) sought to understand the vulnerability status of autonomous driving systems and how to make it robust.
 
 **Internship opportunities at [AVG](https://research.nvidia.com/labs/avg/) Summer'24**: if you are interested in **Traffic Modeling**, **Trustworthy AI**, please feel free to reach out or [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--Autonomous-Vehicles---2024_JR1975150)!
 
@@ -14,14 +14,17 @@ Besides research, I also find photography another lens to observe the world bett
 
 # Preprints
 
-Yingzi Ma, **Yulong Cao**, Jiachen Sun, Marco Pavone, Chaowei Xiao
-"Dolphins: Multimodal Language Model for Driving" [[PDF]](https://arxiv.org/abs/2312.00438)
+Wenhao Ding\*, **Yulong Cao\***, Ding Zhao, Chaowei Xiao, Marco Pavone
+"RealGen: Retrieval Augmented Generation for Controllable Traffic Scenarios" [[arxiv]](https://arxiv.org/pdf/2312.13303.pdf)
 
-**Yulong Cao**, Boris Ivanovic, Chaowei Xiao, Marco Pavone
-"Reinforcement Learning with Human Feedback for Realistic Traffic Simulation” [[PDF]](https://arxiv.org/abs/2309.00709)
+Yingzi Ma, **Yulong Cao**, Jiachen Sun, Marco Pavone, Chaowei Xiao
+"Dolphins: Multimodal Language Model for Driving" [[arxiv]](https://arxiv.org/abs/2312.00438)
 
 
 # Publications
+
+**Yulong Cao**, Boris Ivanovic, Chaowei Xiao, Marco Pavone
+"Reinforcement Learning with Human Feedback for Realistic Traffic Simulation” (**ICRA'24**)
 
 Ziyuan Zhong, Davis Rempe, Yuxiao Chen, Boris Ivanovic, **Yulong Cao**, Danfei Xu, Marco Pavone, Baishakhi Ray
 "Language-Guided Traffic Simulation via Scene-Level Diffusion" (**CoRL'23, Oral**)
@@ -94,3 +97,6 @@ The 3rd Conference on Machine Learning and Systems (MLSys 2020) Demonstration Tr
 [Jiachen Sun](https://web.eecs.umich.edu/~jiachens/)
 
 [Minkyoung Cho](https://minkyoungcho.github.io/)
+
+# Talks
+Guest Lecture at UW-Madison: **Secure and Safe Autonomous Driving System** 
