@@ -1,0 +1,11 @@
+<div class="publications selected-publications">
+  <ol class="bibliography">
+    {% for section in site.data.publications %}
+      {% for publication in section.entries %}
+        {% if publication.selected %}
+          <li>{% include publication-entry.html publication=publication %}</li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </ol>
+</div>

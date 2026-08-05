@@ -1,0 +1,11 @@
+- name: Google Scholar
+  url: https://scholar.google.com/citations?user=uclqBzgAAAAJ
+  icon: ai ai-google-scholar
+
+- name: LinkedIn
+  url: https://www.linkedin.com/in/yulong-cao-0a406170
+  icon: fa-brands fa-linkedin
+
+- name: Instagram
+  url: https://www.instagram.com/kikacaty/
+  icon: fa-brands fa-instagram

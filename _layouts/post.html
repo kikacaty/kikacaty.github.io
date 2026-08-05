@@ -4,8 +4,13 @@
   {% include head.html %}
 
   <body>
+    {% include navigation.html %}
     <section class="page-wrapper">
-      {{content}}
+      <div class="container content">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p class="post-date">{{ page.date | date: "%B %-d, %Y" }}</p>
+        {{ content }}
+      </div>
     </section>
   </body>
 

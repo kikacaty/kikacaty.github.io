@@ -1,0 +1,23 @@
+{% assign publication = include.publication %}
+<div class="row">
+  <div class="col col-sm-2 abbr">
+    <abbr class="badge rounded w-100">{{ publication.abbr }}</abbr>
+  </div>
+  <div class="col-sm-10">
+    <div class="title">{{ publication.title }}</div>
+    <div class="author">{{ publication.authors }}</div>
+    <div class="periodical">
+      <em>{{ publication.venue }}</em>{% if publication.year %}, {{ publication.year }}{% endif %}
+    </div>
+    {% if publication.links or publication.award %}
+      <div class="links">
+        {% if publication.award %}
+          <span class="award btn btn-sm z-depth-0">{{ publication.award }}</span>
+        {% endif %}
+        {% for link in publication.links %}
+          <a href="{{ link.url }}" class="btn btn-sm z-depth-0" role="button">{{ link.label }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</div>

@@ -1,0 +1,157 @@
+/*
+ * Distill-inspired article geometry using the site's existing type and color.
+ * Use layout: distill in a post's front matter to opt in.
+ */
+
+.distill-post {
+  max-width: 68rem;
+  padding: 4rem 1rem 6rem;
+  margin: 0 auto;
+}
+
+.distill-title,
+.distill-byline {
+  max-width: 38rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.distill-title h1 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 2rem;
+  line-height: 1.15;
+}
+
+.distill-title > p {
+  margin-bottom: 1.5rem;
+  color: #717171;
+  font-size: 1.1rem;
+}
+
+.distill-byline {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+  padding: 0.8rem 0 1rem;
+  margin-bottom: 2.5rem;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  font-size: 0.78rem;
+  line-height: 1.35;
+}
+
+.distill-label {
+  display: block;
+  margin-bottom: 0.15rem;
+  color: #888;
+  font-family: var(--font-site);
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.distill-article {
+  display: grid;
+  grid-template-columns:
+    minmax(0, 1fr)
+    [text-start] minmax(0, 38rem) [text-end]
+    minmax(0, 11rem);
+  column-gap: 1.5rem;
+}
+
+.distill-article > * {
+  grid-column: text;
+}
+
+.distill-article > h2,
+.distill-article > h3 {
+  scroll-margin-top: 1rem;
+}
+
+.distill-article > h2 {
+  padding-top: 1.25rem;
+  margin-top: 2rem;
+  border-top: 1px solid #eee;
+}
+
+.distill-article figure,
+.distill-article .wide {
+  grid-column: 1 / -1;
+  max-width: 100%;
+}
+
+.distill-article .margin-note {
+  grid-column: 3;
+  color: #717171;
+  font-size: 0.75rem;
+  line-height: 1.35;
+}
+
+.distill-article pre,
+.distill-article .highlight {
+  overflow-x: auto;
+  padding: 0.75rem 1rem;
+  background: #f9f9f9;
+  border-radius: 5px;
+}
+
+.distill-article code {
+  font-size: 0.82em;
+}
+
+.distill-article blockquote {
+  padding-left: 1rem;
+  border-left: 2px solid #841212;
+}
+
+.distill-contents {
+  grid-column: 1;
+  grid-row: auto / span 5;
+  align-self: start;
+  padding-right: 1rem;
+  border-right: 1px solid #eee;
+  font-size: 0.72rem;
+}
+
+.distill-contents h2 {
+  margin-top: 0;
+  font-size: 0.8rem;
+}
+
+.distill-contents ol {
+  padding-left: 1rem;
+}
+
+@media (max-width: 62rem) {
+  .distill-article {
+    display: block;
+    max-width: 38rem;
+    margin: 0 auto;
+  }
+
+  .distill-contents {
+    padding: 0.75rem 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid #eee;
+  }
+
+  .distill-article .margin-note {
+    padding-left: 1rem;
+    border-left: 1px solid #eee;
+  }
+}
+
+@media (max-width: 38rem) {
+  .distill-post {
+    padding-top: 3rem;
+  }
+
+  .distill-title h1 {
+    font-size: 1.6rem;
+  }
+
+  .distill-byline {
+    grid-template-columns: 1fr;
+  }
+}

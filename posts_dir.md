@@ -7,4 +7,15 @@ title: Blogs
 permalink: /blogs
 ---
 
-To be updated.
+{% assign posts = site.posts %}
+{% if posts.size > 0 %}
+  {% for post in posts %}
+  ## [{{ post.title }}]({{ post.url | relative_url }})
+
+  <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+
+  {% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html | truncatewords: 28 }}{% endif %}
+  {% endfor %}
+{% else %}
+No posts yet.
+{% endif %}

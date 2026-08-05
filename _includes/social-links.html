@@ -1,0 +1,13 @@
+<div class="social" aria-label="Social profiles">
+  <div class="contact-icons">
+    {% for social in site.data.socials %}
+      <a
+        href="{{ social.url }}"
+        title="{{ social.name }}"
+        aria-label="{{ social.name }}"
+        target="_blank"
+        rel="noopener noreferrer"
+      ><i class="{{ social.icon }}" aria-hidden="true"></i></a>
+    {% endfor %}
+  </div>
+</div>

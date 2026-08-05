@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    {% include navigation.html %}
+
+    <main class="distill-post" id="main">
+      <header class="distill-title">
+        <h1>{{ page.title }}</h1>
+        {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+      </header>
+
+      <div class="distill-byline">
+        <div>
+          <span class="distill-label">Authors</span>
+          {% if page.authors %}
+            {% for author in page.authors %}
+              {% if author.url %}<a href="{{ author.url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          {% else %}
+            {{ site.title }}
+          {% endif %}
+        </div>
+        <div>
+          <span class="distill-label">Published</span>
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+        </div>
+      </div>
+
+      <article class="distill-article">
+        {% if page.toc %}
+          <aside class="distill-contents">
+            <h2>Contents</h2>
+            <ol>
+              {% for section in page.toc %}
+                <li><a href="#{{ section.name | slugify }}">{{ section.name }}</a></li>
+              {% endfor %}
+            </ol>
+          </aside>
+        {% endif %}
+        {{ content }}
+      </article>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,285 @@
+- section: arXiv
+  entries:
+    - abbr: arXiv
+      title: "Test-Time Scaling for World Action Models via Zero-Shot Geometric Evaluation"
+      authors: 'Z. Zhao, M. Cho, B. Zheng, K. Gao, <em>Yulong Cao</em>, Z. Morley Mao'
+      venue: "arXiv:2607.17454"
+      year: 2026
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2607.17454
+
+    - abbr: arXiv
+      title: "Cosmos 3: Omnimodal World Models for Physical AI"
+      authors: 'N. Agarwal, A. Ali, J. Allen, M. Antolini, A. Aubame, A. Azzolini, J. Bai, M. Bala, et al.'
+      venue: "arXiv:2606.02800"
+      year: 2026
+      selected: true
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2606.02800
+
+    - abbr: arXiv
+      title: "Fast-dDrive: Efficient Block-Diffusion VLM for Autonomous Driving"
+      authors: 'K. Zhang, J. Wang, S. Gao, C. Wu, <em>Yulong Cao</em>, S. Han, B. Ivanovic, L. Liu, et al.'
+      venue: "arXiv:2605.23163"
+      year: 2026
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2605.23163
+
+    - abbr: arXiv
+      title: "Counterfactual VLA: Self-Reflective Vision-Language-Action Model with Adaptive Reasoning"
+      authors: 'Z. Peng, W. Ding, Y. You, Y. Chen, W. Luo, T. Tian, <em>Yulong Cao</em>, A. Sharma, D. Xu, et al.'
+      venue: "arXiv:2512.24426"
+      year: 2025
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2512.24426
+
+    - abbr: arXiv
+      title: "Alpamayo-R1: Bridging Reasoning and Action Prediction for Generalizable Autonomous Driving in the Long Tail"
+      authors: 'Y. Wang, W. Luo, J. Bai, <em>Yulong Cao</em>, T. Che, K. Chen, Y. Chen, J. Diamond, Y. Ding, et al.'
+      venue: "arXiv:2511.00088"
+      year: 2025
+      selected: true
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2511.00088
+
+    - abbr: arXiv
+      title: "RealDrive: Retrieval-Augmented Driving with Diffusion Models"
+      authors: 'W. Ding, S. Veer, Y. Chen, <em>Yulong Cao</em>, C. Xiao, M. Pavone'
+      venue: "arXiv:2505.24808"
+      year: 2025
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2505.24808
+
+    - abbr: arXiv
+      title: "Surprise Potential as a Measure of Interactivity in Driving Scenarios"
+      authors: 'W. Ding, S. Veer, K. Leung, <em>Yulong Cao</em>, M. Pavone'
+      venue: "arXiv:2502.05677"
+      year: 2025
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2502.05677
+
+    - abbr: arXiv
+      title: "WIPI: A New Web Threat for LLM-Driven Web Agents"
+      authors: 'F. Wu, S. Wu, <em>Yulong Cao</em>, C. Xiao'
+      venue: "arXiv:2402.16965"
+      year: 2024
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2402.16965
+
+    - abbr: arXiv
+      title: "Adversarial Objects Against LiDAR-Based Autonomous Driving Systems"
+      authors: '<em>Yulong Cao</em>, C. Xiao, D. Yang, J. Fang, R. Yang, M. Liu, B. Li'
+      venue: "arXiv:1907.05418"
+      year: 2019
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/1907.05418
+
+- section: Proceedings
+  entries:
+    - abbr: CVPR
+      title: "Latent Chain-of-Thought World Modeling for End-to-End Autonomous Driving"
+      authors: 'S. Tan, K. Chitta, Y. Chen, R. Tian, Y. You, Y. Wang, W. Luo, <em>Yulong Cao</em>, et al.'
+      venue: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition
+      year: 2026
+      links:
+        - label: Proceedings
+          url: https://openaccess.thecvf.com/content/CVPR2026/html/Tan_Latent_Chain-of-Thought_World_Modeling_for_End-to-End_Autonomous_Driving_CVPR_2026_paper.html
+        - label: arXiv
+          url: https://arxiv.org/abs/2512.10226
+
+    - abbr: CVPR
+      title: "dVLM-AD: Enhance Diffusion Vision-Language-Model for Driving via Controllable Reasoning"
+      authors: 'Y. Ma, <em>Yulong Cao</em>, W. Ding, S. Zhang, Y. Wang, B. Ivanovic, M. Jiang, M. Pavone, et al.'
+      venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition (Findings)
+      year: 2026
+      selected: true
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2512.04459
+
+    - abbr: ICRA
+      title: "Gen-Drive: Enhancing Diffusion Generative Driving Policies with Reward Modeling and Reinforcement Learning Fine-Tuning"
+      authors: 'Z. Huang, X. Weng, M. Igl, Y. Chen, <em>Yulong Cao</em>, B. Ivanovic, M. Pavone, C. Lv'
+      venue: IEEE International Conference on Robotics and Automation
+      year: 2025
+
+    - abbr: ICLR
+      title: "Cocoon: Robust Multi-Modal Perception with Uncertainty-Aware Sensor Fusion"
+      authors: 'M. Cho, <em>Yulong Cao</em>, J. Sun, Q. Zhang, M. Pavone, J. J. Park, H. Yang, Z. Morley Mao'
+      venue: International Conference on Learning Representations
+      year: 2025
+
+    - abbr: ICLR
+      title: "Language-Image Models with 3D Understanding"
+      authors: 'J. H. Cho, B. Ivanovic, <em>Yulong Cao</em>, E. Schmerling, Y. Wang, X. Weng, B. Li, Y. You, P. Krähenbühl, Y. Wang, M. Pavone'
+      venue: International Conference on Learning Representations
+      year: 2025
+      links:
+        - label: Proceedings
+          url: https://proceedings.iclr.cc/paper_files/paper/2025/hash/5a829e299ebc1c1615ddb09e98fb6ce8-Abstract-Conference.html
+        - label: arXiv
+          url: https://arxiv.org/abs/2405.03685
+
+    - abbr: ECCV
+      title: "Dolphins: Multimodal Language Model for Driving"
+      authors: 'Y. Ma, <em>Yulong Cao</em>, J. Sun, M. Pavone, C. Xiao'
+      venue: European Conference on Computer Vision
+      year: 2024
+      selected: true
+
+    - abbr: ECCV
+      title: "RealGen: Retrieval Augmented Generation for Controllable Traffic Scenarios"
+      authors: 'W. Ding*, <em>Yulong Cao*</em>, D. Zhao, C. Xiao, M. Pavone'
+      venue: European Conference on Computer Vision
+      year: 2024
+
+    - abbr: ICRA
+      title: "Reinforcement Learning with Human Feedback for Realistic Traffic Simulation"
+      authors: '<em>Yulong Cao</em>, B. Ivanovic, C. Xiao, M. Pavone'
+      venue: IEEE International Conference on Robotics and Automation
+      year: 2024
+      selected: true
+
+    - abbr: CoRL
+      title: "Promptable Closed-Loop Traffic Simulation"
+      authors: 'S. Tan, B. Ivanovic, Y. Chen, B. Li, X. Weng, <em>Yulong Cao</em>, P. Krähenbühl, M. Pavone'
+      venue: Conference on Robot Learning
+      year: 2024
+      links:
+        - label: Proceedings
+          url: https://proceedings.mlr.press/v270/tan25a.html
+        - label: arXiv
+          url: https://arxiv.org/abs/2409.05863
+
+    - abbr: USENIX
+      title: "You Can't See Me: Physical Removal Attacks on LiDAR-Based Autonomous Vehicles Driving Frameworks"
+      authors: '<em>Yulong Cao</em>, S. H. Bhupathiraju, P. Naghavi, T. Sugawara, Z. Morley Mao, S. Rampazzi'
+      venue: 32nd USENIX Security Symposium
+      year: 2023
+      selected: true
+
+    - abbr: CoRL
+      title: "Language-Guided Traffic Simulation via Scene-Level Diffusion"
+      authors: 'Z. Zhong, D. Rempe, Y. Chen, B. Ivanovic, <em>Yulong Cao</em>, D. Xu, M. Pavone, B. Ray'
+      venue: Conference on Robot Learning
+      year: 2023
+      award: Oral
+
+    - abbr: CoRL
+      title: "Robust Trajectory Prediction Against Adversarial Attacks"
+      authors: '<em>Yulong Cao</em>, D. Xu, X. Weng, Z. Morley Mao, A. Anandkumar, C. Xiao, M. Pavone'
+      venue: Conference on Robot Learning
+      year: 2023
+      award: Oral
+
+    - abbr: BMVC
+      title: "ADoPT: LiDAR Spoofing Attack Detection Based on Point-Level Temporal Consistency"
+      authors: 'M. Cho, <em>Yulong Cao</em>, Z. Zhou, Z. Morley Mao'
+      venue: British Machine Vision Conference
+      year: 2023
+      links:
+        - label: Proceedings
+          url: https://proceedings.bmvc2023.org/486/
+        - label: arXiv
+          url: https://arxiv.org/abs/2310.14504
+
+    - abbr: CPS-IoT
+      title: "Adversarial Attacks on Adaptive Cruise Control Systems"
+      authors: 'Y. Guo, T. Sato, <em>Yulong Cao</em>, Q. Alfred Chen, Y. Cheng'
+      venue: Proceedings of Cyber-Physical Systems and Internet of Things Week
+      year: 2023
+
+    - abbr: USENIX
+      title: "Security Analysis of Camera-LiDAR Fusion Against Black-Box Attacks on Autonomous Vehicles"
+      authors: 'R. S. Hallyburton, Y. Liu, <em>Yulong Cao</em>, Z. Morley Mao, M. Pajic'
+      venue: 31st USENIX Security Symposium
+      year: 2022
+
+    - abbr: ECCV
+      title: "AdvDO: Realistic Adversarial Attacks for Trajectory Prediction"
+      authors: '<em>Yulong Cao</em>, C. Xiao, A. Anandkumar, D. Xu, M. Pavone'
+      venue: European Conference on Computer Vision
+      year: 2022
+
+    - abbr: S&P
+      title: "Invisible for Both Camera and LiDAR: Security of Multi-Sensor Fusion-Based Perception in Autonomous Driving Under Physical-World Attacks"
+      authors: '<em>Yulong Cao*</em>, N. Wang*, C. Xiao*, D. Yang*, J. Fang, R. Yang, Q. Alfred Chen, M. Liu, B. Li'
+      venue: IEEE Symposium on Security and Privacy
+      year: 2021
+      selected: true
+
+    - abbr: NeurIPS
+      title: "Adversarially Robust 3D Point Cloud Recognition Using Self-Supervisions"
+      authors: 'J. Sun, <em>Yulong Cao</em>, C. Choy, Z. Yu, A. Anandkumar, Z. Morley Mao, C. Xiao'
+      venue: Advances in Neural Information Processing Systems
+      year: 2021
+
+    - abbr: BMVC
+      title: "On Adversarial Robustness of 3D Point Cloud Classification Under Adaptive Attacks"
+      authors: 'J. Sun, K. Koenig, <em>Yulong Cao</em>, Q. Alfred Chen, Z. Morley Mao'
+      venue: British Machine Vision Conference
+      year: 2021
+      links:
+        - label: Proceedings
+          url: https://bmva-archive.org.uk/bmvc/2021/conference/papers/paper_0381.html
+        - label: arXiv
+          url: https://arxiv.org/abs/2011.11922
+
+    - abbr: AutoSec
+      title: "Automated Tracking System for LiDAR Spoofing Attacks on Moving Targets"
+      authors: '<em>Yulong Cao</em>, J. Ma, K. Fu, S. Rampazzi, Z. Morley Mao'
+      venue: Workshop on Automotive and Autonomous Vehicle Security
+      year: 2021
+      award: Best Demo Award Runner-up
+
+    - abbr: ICMLW
+      title: "Improving Adversarial Robustness in 3D Point Cloud Classification via Self-Supervisions"
+      authors: 'J. Sun, <em>Yulong Cao</em>, C. Choy, Z. Yu, C. Xiao, A. Anandkumar, Z. Morley Mao'
+      venue: International Conference on Machine Learning Workshop
+      year: 2021
+
+    - abbr: ICCVW
+      title: "An Adversarial Attack on DNN-Based Adaptive Cruise Control Systems"
+      authors: 'Y. Guo, C. Dipalma, T. Sato, <em>Yulong Cao</em>, Q. Alfred Chen, Y. Cheng'
+      venue: ICCV Workshop on Adversarial Robustness in the Real World
+      year: 2021
+
+    - abbr: USENIX
+      title: "Towards Robust LiDAR-Based Perception in Autonomous Driving: General Black-Box Adversarial Sensor Attack and Countermeasures"
+      authors: 'J. Sun, <em>Yulong Cao</em>, Q. Alfred Chen, Z. Morley Mao'
+      venue: 29th USENIX Security Symposium
+      year: 2020
+      selected: true
+
+    - abbr: EuroS&P
+      title: "AVGuardian: Detecting and Mitigating Publish-Subscribe Overprivilege for Autonomous Vehicle Systems"
+      authors: 'D. Hong, J. Kloosterman, Y. Jin, <em>Yulong Cao</em>, Q. Alfred Chen, S. Mahlke, Z. Morley Mao'
+      venue: IEEE European Symposium on Security and Privacy
+      year: 2020
+
+    - abbr: MLSys
+      title: "3D Adversarial Object Against MSF-Based Perception in Autonomous Driving"
+      authors: '<em>Yulong Cao</em>, N. Wang, C. Xiao, D. Yang, J. Fang, R. Yang, Q. Alfred Chen, M. Liu, B. Li'
+      venue: Proceedings of the 3rd Conference on Machine Learning and Systems
+      year: 2020
+
+    - abbr: CCS
+      title: "Adversarial Sensor Attack on LiDAR-Based Perception in Autonomous Driving"
+      authors: '<em>Yulong Cao</em>, C. Xiao, B. Cyr, Y. Zhou, W. Park, S. Rampazzi, Q. Alfred Chen, K. Fu, Z. Morley Mao'
+      venue: Proceedings of the ACM SIGSAC Conference on Computer and Communications Security
+      year: 2019
+
+    - abbr: CCS
+      title: "Client-Side Name Collision Vulnerability in the New gTLD Era: A Systematic Study"
+      authors: 'Q. Alfred Chen, M. Thomas, E. Osterweil, <em>Yulong Cao</em>, J. You, Z. Morley Mao'
+      venue: Proceedings of the ACM SIGSAC Conference on Computer and Communications Security
+      year: 2017

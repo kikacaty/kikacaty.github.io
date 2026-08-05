@@ -1,6 +1,6 @@
 <head>
   <!-- Canonical link to help search engines -->
-  <link rel="canonical" href="{{ site.baseurl }}{{ page.url }}"/>
+  <link rel="canonical" href="{{ page.url | absolute_url }}"/>
 
   <!-- Basic meta elements -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -8,6 +8,7 @@
 
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"/>
+  <meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace }}"/>
 
   <!--   Dublin Core metadata for Zotero -->
   <!-- <meta name="DC.title" content="{{ page.title }}" />
@@ -23,33 +24,38 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'UA-164562779-1');
   </script>
 
-  
-  <title>
-    {% if page.title }
-      {{ page.title }}
-    {% else %}
-      {{ site.title }}
-    {% endif %}
-  </title>
+  <title>{{ page.title | default: site.title }}</title>
 
   <!-- CSS links -->
   <link rel="stylesheet" href="{{ site.baseurl }}/css/base.css"/>
   <link rel="stylesheet" href="{{ site.baseurl }}/css/nav.css"/>
+  {% if page.layout == "distill" %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/distill.css"/>
+  {% endif %}
 
   <!-- JS links -->
-  <script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
-  <script src="//cdn.jsdelivr.net/velocity/1.4/velocity.min.js"></script>
-  <script src="//cdn.jsdelivr.net/velocity/1.4/velocity.ui.min.js"></script>
-  <!-- <script src="{{ site.baseurl }}/js/nav.js"></script> -->
+  <script defer src="{{ site.baseurl }}/js/nav.js"></script>
+  <script type="module" src="{{ "/js/identity-animation.js" | relative_url }}?v={{ site.time | date: "%s" }}"></script>
+  {% if page.publication_timeline %}
+    <script defer src="{{ site.baseurl }}/js/publications.js"></script>
+  {% endif %}
 
   <!-- Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css"
+    integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c="
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css"
+    integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw="
+    crossorigin="anonymous"
+  />
   <!-- <link rel="apple-touch-icon-precomposed" sizes="180x180" href="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png"/>
   <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico"/> -->
 

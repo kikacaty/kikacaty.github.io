@@ -10,6 +10,10 @@
           box-sizing: border-box;
 }
 
+:root {
+  --font-site: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
 html,
 body {
   margin: 0;
@@ -18,7 +22,7 @@ body {
 }
 
 html {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: var(--font-site);
   font-size: 16px;
   line-height: 1.5;
 }
@@ -36,8 +40,74 @@ body {
       -ms-text-size-adjust: 100%;
 }
 
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
 .content {
 	margin-bottom: 4rem;
+}
+
+.page-body > .content {
+  padding-top: 3rem;
+}
+
+.home .page-body > .content {
+  padding-top: 1.5rem;
+}
+
+.social {
+  margin: 1.5rem 0 2rem;
+  text-align: left;
+}
+
+.contact-icons {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  font-size: 1.8rem;
+  line-height: 1;
+}
+
+.contact-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #505050;
+  text-decoration: none;
+  transition: color 160ms ease, transform 160ms ease;
+}
+
+.contact-icons i,
+.contact-icons i::before {
+  color: currentColor;
+  font-style: normal;
+}
+
+.contact-icons a:hover,
+.contact-icons a:focus {
+  color: #841212;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.contact-icons a:focus-visible {
+  outline: 2px solid #841212;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .contact-icons a {
+    transition: none;
+  }
+
+  .contact-icons a:hover,
+  .contact-icons a:focus {
+    transform: none;
+  }
 }
 
 /*
@@ -98,7 +168,7 @@ a:focus {
 /* Headings */
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: var(--font-site);
   margin-bottom: .5rem;
   font-weight: 400;
   font-size: 1.5rem;
@@ -291,7 +361,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .masthead-title small {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: var(--font-site);
   font-size: 1rem;
   font-weight: 400;
   color: #c0c0c0;
@@ -299,7 +369,7 @@ tbody tr:nth-child(odd) th {
 }
 
 h3.masthead-title {
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: var(--font-site);
 	font-size: 1.8rem;
 	margin-top: 2px;
 }
@@ -350,7 +420,7 @@ h3.masthead-title {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: var(--font-site);
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #202020;
@@ -807,4 +877,217 @@ ol.bibliography {
   margin-left:  auto;
   margin-right: auto;
   /*background-color: #FFA;*/
+}
+
+/* al-folio bibliography component */
+
+.publications {
+  margin-top: 2rem;
+}
+
+.publications h2.bibliography {
+  padding-top: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #bbb;
+  text-align: right;
+  border-top: 1px solid #eee;
+}
+
+.publications ol.bibliography {
+  padding: 0;
+  margin-top: 0;
+  text-indent: 0;
+  list-style: none;
+}
+
+.publications ol.bibliography li {
+  margin-bottom: 1rem;
+}
+
+.publications .row {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.publications .abbr {
+  flex: 0 0 6.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.publications .abbr abbr {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.25em 0.4em;
+  color: #fff;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #841212;
+  border-radius: 0.25rem;
+  text-decoration: none;
+}
+
+.publications .col-sm-10 {
+  flex: 1;
+  min-width: 0;
+}
+
+.publications .title {
+  font-weight: bolder;
+}
+
+.publications .author > em {
+  font-style: normal;
+  border-bottom: 1px solid;
+}
+
+.publications .periodical {
+  color: #717171;
+}
+
+.publications .links {
+  margin-top: 0.25rem;
+}
+
+.publications .btn {
+  display: inline-block;
+  padding: 0.25rem 1rem;
+  margin: 0 0.25rem 0.25rem 0;
+  color: #303030;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  background: transparent;
+  border: 1px solid #303030;
+  border-radius: 0.125rem;
+}
+
+.publications a.btn:hover,
+.publications a.btn:focus {
+  color: #841212;
+  text-decoration: none;
+  border-color: #841212;
+}
+
+.publications .award {
+  color: #841212;
+  border-color: #841212;
+}
+
+.publication-archive {
+  margin-top: 2.5rem;
+  border-top: 1px solid #eee;
+}
+
+.publication-archive > summary {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 1rem 0;
+  color: #841212;
+  font-size: 1.35rem;
+  cursor: pointer;
+}
+
+.publication-archive > summary::marker {
+  color: #841212;
+}
+
+.publication-count {
+  color: #888;
+  font-size: 0.75rem;
+}
+
+.publication-timeline {
+  position: sticky;
+  top: 5.25rem;
+  z-index: 5;
+  display: flex;
+  gap: 0;
+  justify-content: space-between;
+  padding: 0.75rem 0.9rem;
+  margin: 0.5rem 0 1.5rem;
+  overflow-x: auto;
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid #eee;
+  border-radius: 0.25rem;
+}
+
+.publication-timeline::before {
+  position: absolute;
+  top: 50%;
+  right: 1.2rem;
+  left: 1.2rem;
+  height: 1px;
+  content: "";
+  background: #ddd;
+}
+
+.publication-timeline a {
+  position: relative;
+  z-index: 1;
+  min-width: 2.8rem;
+  padding: 0.15rem 0.3rem;
+  color: #888;
+  font-size: 0.72rem;
+  text-align: center;
+  text-decoration: none;
+  background: #fff;
+}
+
+.publication-timeline a::before {
+  display: block;
+  width: 0.45rem;
+  height: 0.45rem;
+  margin: 0 auto 0.2rem;
+  content: "";
+  background: #ccc;
+  border-radius: 50%;
+}
+
+.publication-timeline a:hover,
+.publication-timeline a:focus,
+.publication-timeline a.is-active {
+  color: #841212;
+  text-decoration: none;
+}
+
+.publication-timeline a.is-active::before {
+  background: #841212;
+  box-shadow: 0 0 0 0.2rem rgba(132, 18, 18, 0.12);
+}
+
+.publication-year-group {
+  scroll-margin-top: 9rem;
+}
+
+@media (max-width: 38rem) {
+  .publications .row {
+    display: block;
+  }
+
+  .publications .abbr {
+    width: 6.5rem;
+  }
+
+  .publication-timeline {
+    justify-content: flex-start;
+  }
+
+  .publication-timeline a {
+    min-width: 3.4rem;
+  }
+}
+
+.page-wrapper {
+  padding-top: 4rem;
 }

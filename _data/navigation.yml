@@ -1,0 +1,15 @@
+- title: About
+  url: /
+  description: About me
+
+- title: Publications
+  url: /publications
+  description: Research work
+
+- title: Blogs
+  url: /blogs
+  description: Random thoughts
+
+- title: Gallery
+  url: /gallery
+  description: Another life
