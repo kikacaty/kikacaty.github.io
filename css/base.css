@@ -867,6 +867,50 @@ ol.bibliography {
 	text-indent: -1rem;
 }
 
+/* Gallery credits and original-photo links. */
+
+.gallery-credit {
+  padding-bottom: 0.75rem;
+  margin-bottom: 2rem;
+  color: #777;
+  font-size: 0.78rem;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.zine-piece {
+  margin: 0 0 3rem;
+}
+
+.zine-piece img {
+  display: block;
+  margin: 0 auto;
+}
+
+.zine-piece figcaption {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  padding-top: 0.55rem;
+  color: #777;
+  font-size: 0.74rem;
+  border-top: 1px solid #ededed;
+}
+
+.zine-piece figcaption span {
+  color: #454545;
+}
+
+@media (max-width: 32rem) {
+  .zine-piece figcaption {
+    display: block;
+  }
+
+  .zine-piece figcaption a {
+    display: block;
+    margin-top: 0.15rem;
+  }
+}
+
 
 /*about image alignment*/
 .sideimg {
